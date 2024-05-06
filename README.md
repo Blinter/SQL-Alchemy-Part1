@@ -2,7 +2,7 @@
 ### Blogly Part 1
 
 ### Database Operations
-+ Units Tests
-+ Further Study Items Completed
++ Unit Tests
++ Further Study Items Complete
 + List Users In Order
 + Turn Full Name Into a “Property”
