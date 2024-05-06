@@ -1,0 +1,25 @@
+<h1>User Details</h1>
+<hr>
+<h2>{{ user.full_name }}</h2>
+<div>
+<img src="{{ user.image_url }}"
+           style="width: 50px; max-width: 50px;
+           height: 50px; max-height:50px;"></img>
+</div>
+<hr>
+<div>
+    <p>
+        <a href="/users/{{ user.id }}/edit">EDIT</a>
+        </form>
+</a>
+    </p>
+</div>
+<div>
+    <p>
+        <form method="POST" action="/users/{{ user.id }}/delete">
+        <input type="submit" value="DELETE"></input>
+        </form>
+    </p>
+</div>
+<hr>
+<a href="/">Go back</a>

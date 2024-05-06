@@ -1,0 +1,15 @@
+<h1>Edit User</h1>
+<hr>
+<form method="POST">
+  <p>First Name: <input name="first_name" value="{{ user.first_name }}"></p>
+  <p>Middle Name: <input name="middle_name" value="{{ user.middle_name }}"></p>
+  <p>Last Name: <input name="last_name" value="{{ user.last_name }}"></p>
+<p>
+  <img src="{{ user.image_url }}"
+           style="width: 50px; max-width: 50px;
+           height: 50px; max-height:50px;"></img></p>
+  <p>Image URL: <input name="image_url" value="{{ user.image_url }}"></p>
+<hr>
+  <input type="submit" value="SAVE"></input>
+<a href="/users">Go back</a>
+</form>
